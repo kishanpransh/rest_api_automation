@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-18T10:05:05 GMT-04:00" name="Suite" finished-at="2024-03-18T10:05:30 GMT-04:00" duration-ms="25321">
+    <groups>
+    </groups>
+    <test started-at="2024-03-18T10:05:05 GMT-04:00" name="Test" finished-at="2024-03-18T10:05:30 GMT-04:00" duration-ms="25321">
+      <class name="com.api.test.Test_API_TextDrip">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:05 GMT-04:00" name="setup" finished-at="2024-03-18T10:05:05 GMT-04:00" duration-ms="453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="before_method(java.lang.reflect.Method)[pri:0, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:05 GMT-04:00" name="before_method" finished-at="2024-03-18T10:05:05 GMT-04:00" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.test.Test_API_TextDrip.Login_user_API()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_method -->
+        <test-method signature="Login_user_API()[pri:1, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:05 GMT-04:00" name="Login_user_API" description="In this test we are verifying to user login API." finished-at="2024-03-18T10:05:08 GMT-04:00" duration-ms="2847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_user_API -->
+        <test-method is-config="true" signature="before_method(java.lang.reflect.Method)[pri:0, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:08 GMT-04:00" name="before_method" finished-at="2024-03-18T10:05:08 GMT-04:00" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.test.Test_API_TextDrip.Get_Profile()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_method -->
+        <test-method signature="Get_Profile()[pri:2, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:08 GMT-04:00" name="Get_Profile" description="In this test we are verifying the get profile details." finished-at="2024-03-18T10:05:09 GMT-04:00" duration-ms="1144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Profile -->
+        <test-method is-config="true" signature="before_method(java.lang.reflect.Method)[pri:0, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:09 GMT-04:00" name="before_method" finished-at="2024-03-18T10:05:09 GMT-04:00" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.test.Test_API_TextDrip.Get_campaign()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_method -->
+        <test-method signature="Get_campaign()[pri:3, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:09 GMT-04:00" name="Get_campaign" description="In this test we are verifying the get campaigns details." finished-at="2024-03-18T10:05:11 GMT-04:00" duration-ms="1157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_campaign -->
+        <test-method is-config="true" signature="before_method(java.lang.reflect.Method)[pri:0, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:11 GMT-04:00" name="before_method" finished-at="2024-03-18T10:05:11 GMT-04:00" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.test.Test_API_TextDrip.Get_Tag()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_method -->
+        <test-method signature="Get_Tag()[pri:4, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:11 GMT-04:00" name="Get_Tag" description="In this test we are verifying the tags details." finished-at="2024-03-18T10:05:12 GMT-04:00" duration-ms="1239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Tag -->
+        <test-method signature="Get_QuickResponse()[pri:5, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:12 GMT-04:00" name="Get_QuickResponse" description="In this test we are verifying the Quick Responses details." finished-at="2024-03-18T10:05:13 GMT-04:00" duration-ms="1073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_QuickResponse -->
+        <test-method is-config="true" signature="before_method(java.lang.reflect.Method)[pri:0, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:12 GMT-04:00" name="before_method" finished-at="2024-03-18T10:05:12 GMT-04:00" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.test.Test_API_TextDrip.Get_QuickResponse()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_method -->
+        <test-method is-config="true" signature="before_method(java.lang.reflect.Method)[pri:0, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:13 GMT-04:00" name="before_method" finished-at="2024-03-18T10:05:13 GMT-04:00" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.test.Test_API_TextDrip.Get_PhoneList()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_method -->
+        <test-method signature="Get_PhoneList()[pri:6, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:13 GMT-04:00" name="Get_PhoneList" description="In this test we are verifying the phone list details." finished-at="2024-03-18T10:05:14 GMT-04:00" duration-ms="1156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_PhoneList -->
+        <test-method signature="Create_contact()[pri:7, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:14 GMT-04:00" name="Create_contact" description="In this test we are verifying the create contact." finished-at="2024-03-18T10:05:16 GMT-04:00" duration-ms="1569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_contact -->
+        <test-method is-config="true" signature="before_method(java.lang.reflect.Method)[pri:0, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:14 GMT-04:00" name="before_method" finished-at="2024-03-18T10:05:14 GMT-04:00" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.test.Test_API_TextDrip.Create_contact()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_method -->
+        <test-method is-config="true" signature="before_method(java.lang.reflect.Method)[pri:0, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:16 GMT-04:00" name="before_method" finished-at="2024-03-18T10:05:16 GMT-04:00" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.test.Test_API_TextDrip.get_contact_details()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_method -->
+        <test-method signature="get_contact_details()[pri:8, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:16 GMT-04:00" name="get_contact_details" description="In this test we are verifying the get contact details." finished-at="2024-03-18T10:05:17 GMT-04:00" duration-ms="1235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_contact_details -->
+        <test-method is-config="true" signature="before_method(java.lang.reflect.Method)[pri:0, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:17 GMT-04:00" name="before_method" finished-at="2024-03-18T10:05:17 GMT-04:00" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.test.Test_API_TextDrip.get_conversations()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_method -->
+        <test-method signature="get_conversations()[pri:9, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:17 GMT-04:00" name="get_conversations" description="In this test we are verifying the get conversation details." finished-at="2024-03-18T10:05:18 GMT-04:00" duration-ms="1127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_conversations -->
+        <test-method is-config="true" signature="before_method(java.lang.reflect.Method)[pri:0, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:18 GMT-04:00" name="before_method" finished-at="2024-03-18T10:05:18 GMT-04:00" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.test.Test_API_TextDrip.get_chat()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_method -->
+        <test-method signature="get_chat()[pri:10, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:18 GMT-04:00" name="get_chat" description="In this test we are verifying the get chat details." finished-at="2024-03-18T10:05:19 GMT-04:00" duration-ms="1169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_chat -->
+        <test-method is-config="true" signature="before_method(java.lang.reflect.Method)[pri:0, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:19 GMT-04:00" name="before_method" finished-at="2024-03-18T10:05:19 GMT-04:00" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.test.Test_API_TextDrip.get_drip_messages()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_method -->
+        <test-method signature="get_drip_messages()[pri:11, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:19 GMT-04:00" name="get_drip_messages" description="In this test we are verifying the get selected campaign all drip messages." finished-at="2024-03-18T10:05:20 GMT-04:00" duration-ms="1114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_drip_messages -->
+        <test-method is-config="true" signature="before_method(java.lang.reflect.Method)[pri:0, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:20 GMT-04:00" name="before_method" finished-at="2024-03-18T10:05:20 GMT-04:00" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.test.Test_API_TextDrip.get_delivery_rate()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_method -->
+        <test-method signature="get_delivery_rate()[pri:12, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:20 GMT-04:00" name="get_delivery_rate" description="In this test we are verifying the get delivery report of selected date." finished-at="2024-03-18T10:05:21 GMT-04:00" duration-ms="1163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_delivery_rate -->
+        <test-method is-config="true" signature="before_method(java.lang.reflect.Method)[pri:0, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:21 GMT-04:00" name="before_method" finished-at="2024-03-18T10:05:21 GMT-04:00" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.test.Test_API_TextDrip.archive_contact()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_method -->
+        <test-method signature="archive_contact()[pri:13, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:21 GMT-04:00" name="archive_contact" description="In this test we are verifying the archive contact." finished-at="2024-03-18T10:05:23 GMT-04:00" duration-ms="1190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- archive_contact -->
+        <test-method is-config="true" signature="before_method(java.lang.reflect.Method)[pri:0, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:23 GMT-04:00" name="before_method" finished-at="2024-03-18T10:05:23 GMT-04:00" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.test.Test_API_TextDrip.add_campaign()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_method -->
+        <test-method signature="add_campaign()[pri:14, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:23 GMT-04:00" name="add_campaign" description="In this test we are verifying the add campaign to contact API." finished-at="2024-03-18T10:05:24 GMT-04:00" duration-ms="1227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_campaign -->
+        <test-method signature="send_message()[pri:15, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:24 GMT-04:00" name="send_message" description="In this test we are verifying the send message to contact API." finished-at="2024-03-18T10:05:25 GMT-04:00" duration-ms="1328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send_message -->
+        <test-method is-config="true" signature="before_method(java.lang.reflect.Method)[pri:0, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:24 GMT-04:00" name="before_method" finished-at="2024-03-18T10:05:24 GMT-04:00" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.test.Test_API_TextDrip.send_message()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_method -->
+        <test-method is-config="true" signature="before_method(java.lang.reflect.Method)[pri:0, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:25 GMT-04:00" name="before_method" finished-at="2024-03-18T10:05:25 GMT-04:00" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.test.Test_API_TextDrip.add_schedule()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_method -->
+        <test-method signature="add_schedule()[pri:16, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:25 GMT-04:00" name="add_schedule" description="In this test we are verifying the add schedule message to contact API." finished-at="2024-03-18T10:05:26 GMT-04:00" duration-ms="1237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_schedule -->
+        <test-method signature="assign_campaign_contact()[pri:17, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:26 GMT-04:00" name="assign_campaign_contact" description="In this test we are verifying the assign campaign to contact API." finished-at="2024-03-18T10:05:28 GMT-04:00" duration-ms="1205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assign_campaign_contact -->
+        <test-method is-config="true" signature="before_method(java.lang.reflect.Method)[pri:0, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:26 GMT-04:00" name="before_method" finished-at="2024-03-18T10:05:26 GMT-04:00" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.test.Test_API_TextDrip.assign_campaign_contact()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_method -->
+        <test-method signature="update_contact()[pri:18, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:28 GMT-04:00" name="update_contact" description="In this test we are verifying the update contact API." finished-at="2024-03-18T10:05:29 GMT-04:00" duration-ms="1151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_contact -->
+        <test-method is-config="true" signature="before_method(java.lang.reflect.Method)[pri:0, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:28 GMT-04:00" name="before_method" finished-at="2024-03-18T10:05:28 GMT-04:00" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.test.Test_API_TextDrip.update_contact()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_method -->
+        <test-method is-config="true" signature="before_method(java.lang.reflect.Method)[pri:0, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:29 GMT-04:00" name="before_method" finished-at="2024-03-18T10:05:29 GMT-04:00" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.test.Test_API_TextDrip.create_contact_with_tag()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_method -->
+        <test-method signature="create_contact_with_tag()[pri:19, instance:com.api.test.Test_API_TextDrip@f0c8a99]" started-at="2024-03-18T10:05:29 GMT-04:00" name="create_contact_with_tag" description="In this test we are verifying the create contact with tag API." finished-at="2024-03-18T10:05:30 GMT-04:00" duration-ms="1255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_contact_with_tag -->
+      </class> <!-- com.api.test.Test_API_TextDrip -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.api.utilities.ExtentReportManager" />
+		
+	</listeners>
+
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.api.test.Test_API_TextDrip" >
+			<methods>
+					<include name="Login_user_API" />
+					<include name="Get_Profile" />
+					<include name="Get_campaign" />
+					<include name="Get_Tag" />
+					<include name="Get_QuickResponse" />
+					<include name="Get_PhoneList" />
+					<include name="Create_contact" />	
+					<include name="get_contact_details" />	
+					<include name="get_conversations" />	
+					<include name="get_chat" />	
+					<include name="get_drip_messages" />	
+					<include name="get_delivery_rate" />	
+					<include name="archive_contact" />					
+					<include name="add_campaign" />
+					<include name="send_message" />	
+					<include name="add_schedule" />	
+					<include name="assign_campaign_contact" />	
+					<include name="update_contact" />	
+					<include name="create_contact_with_tag" />					
+				</methods>
+				</class>
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
